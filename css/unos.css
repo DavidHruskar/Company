@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, helvetica, sans-serif;
+  font-size: medium;
+}
+
+/* Small screen (≥576px) */
+@media (min-width: 576px) {
+  .navbar-nav:first-child {
+    flex-direction: column;
+  }
+  .navbar-nav:last-child {
+    margin-left: auto;
+    flex-direction: column;
+  }
+}
+
+/* Medium screen (≥768px) */
+@media (min-width: 768px) {
+  .navbar-nav:first-child {
+    flex-direction: column;
+  }
+  .navbar-nav:last-child {
+    margin-left: auto;
+    flex-direction: column;
+  }
+}
+
+/* Large screen (≥992px) */
+@media (min-width: 992px) {
+  .navbar-nav:last-child {
+    margin-left: auto;
+    flex-direction: column;
+  }
+}
+
+/* Small screen (≥576px) */
+@media (min-width: 576px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+
+/* Medium screen (≥768px) */
+@media (min-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+
+/* Large screen (≥992px) */
+@media (min-width: 992px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust margins for small screens */
+@media (max-width: 575.98px) {
+  form {
+    margin: 0 10px;
+  }
+}
+
+/* Adjust margins for medium screens */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  form {
+    margin: 0 50px;
+  }
+}
+
+/* Adjust margins for large screens */
+@media (min-width: 992px) {
+  form {
+    margin: 0 100px;
+  }
+}
